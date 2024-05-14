@@ -1,0 +1,96 @@
+
+body.index {
+    font-family: Arial, sans-serif;
+    background-color: #a0c0cd; 
+    margin: 0;
+    padding: 0;
+}
+
+.cover-page.index {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content.index {
+    color: #333; 
+}
+
+.get-started-button.index {
+    padding: 10px 20px;
+    background-color: #1d201d; 
+    color: rgb(172, 203, 202); 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-button.index:hover {
+    background-color: #131813; 
+}
+
+
+body.todo {
+    font-family: Arial, sans-serif;
+    background-color: #a0c5c9; 
+    margin: 0;
+    padding: 0;
+}
+
+.todo-container {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.title {
+    color: #333; 
+}
+
+.add-task {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #000; 
+    color: rgb(168, 211, 209); 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #a0c4c6; 
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+    background-color: #cfd8dc; 
+    text-decoration: line-through;
+}
